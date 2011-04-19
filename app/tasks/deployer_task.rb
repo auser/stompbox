@@ -16,8 +16,8 @@
 $:.unshift(File.dirname(__FILE__) + '/../')
 
 require 'torquebox-messaging'
-require 'deployer'
-require 'models'
+require "#{File.dirname(__FILE__)}/../deployer"
+require "#{File.dirname(__FILE__)}/../models"
 
 class DeployerTask < TorqueBox::Messaging::Task
 
