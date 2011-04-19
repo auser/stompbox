@@ -19,7 +19,6 @@ require 'torquebox-messaging'
 require "#{File.dirname(__FILE__)}/../deployer"
 require "#{File.dirname(__FILE__)}/../models"
 
-
 class DeployerTask < TorqueBox::Messaging::Task
 
   def deploy(payload)
